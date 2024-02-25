@@ -6,7 +6,7 @@ namespace Lopakodo.ViewModel
     {
         private Boolean _isLocked;
         private String _text;
-        
+
         public Boolean IsLocked
         {
             get { return _isLocked; }
@@ -19,7 +19,7 @@ namespace Lopakodo.ViewModel
                 }
             }
         }
-        
+
         public String Text
         {
             get { return _text; }
@@ -32,11 +32,11 @@ namespace Lopakodo.ViewModel
                 }
             }
         }
-        
+
         public Int32 X { get; set; }
-        
+
         public Int32 Y { get; set; }
-        
+
         public Int32 Number { get; set; }
         public DelegateCommand StepCommand { get; set; }
     }

@@ -1,0 +1,9 @@
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\Lopakodo.csproj.AssemblyReference.cache
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\View\mainwindow.baml
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\View\SaveWindow.baml
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\View\LoadWindow.g.cs
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\View\mainwindow.g.cs
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\View\SaveWindow.g.cs
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\App.g.cs
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\Lopakodo_MarkupCompile.cache
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Lopakodo\obj\Release\Lopakodo_MarkupCompile.lref

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lopakodo", "Lopakodo\Lopakodo.csproj", "{7FB30883-3603-41EC-936F-C102E4D2D86E}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.File", "Persistence.File\Persistence.File.csproj", "{2D141C40-4040-4F37-B030-667AE7195870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.db", "ClassLibrary1\Persistence.db.csproj", "{C75F6196-3A3C-40FC-99FF-4F8D855FCB23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.db", "Persistencedb\Persistence.db.csproj", "{C75F6196-3A3C-40FC-99FF-4F8D855FCB23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,7 +42,6 @@ Global
 		{7FB30883-3603-41EC-936F-C102E4D2D86E}.Release|x86.ActiveCfg = Release|Any CPU
 		{7FB30883-3603-41EC-936F-C102E4D2D86E}.Release|x86.Build.0 = Release|Any CPU
 		{ACBDB811-AE1E-4B15-BF95-D25BA3E34ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACBDB811-AE1E-4B15-BF95-D25BA3E34ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACBDB811-AE1E-4B15-BF95-D25BA3E34ACE}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{ACBDB811-AE1E-4B15-BF95-D25BA3E34ACE}.Debug|ARM.Build.0 = Debug|Any CPU
 		{ACBDB811-AE1E-4B15-BF95-D25BA3E34ACE}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -74,7 +73,6 @@ Global
 		{A830824E-42CA-4B24-A248-7D2B5FAB270F}.Release|x86.ActiveCfg = Release|Any CPU
 		{A830824E-42CA-4B24-A248-7D2B5FAB270F}.Release|x86.Build.0 = Release|Any CPU
 		{2D141C40-4040-4F37-B030-667AE7195870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D141C40-4040-4F37-B030-667AE7195870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D141C40-4040-4F37-B030-667AE7195870}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{2D141C40-4040-4F37-B030-667AE7195870}.Debug|ARM.Build.0 = Debug|Any CPU
 		{2D141C40-4040-4F37-B030-667AE7195870}.Debug|x64.ActiveCfg = Debug|Any CPU

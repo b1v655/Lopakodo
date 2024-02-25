@@ -1,13 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Threading;
-using Lopakodo.Windows.Lopakodo.Persistence;
-using System.Collections.Generic;
+using Lopakodo.Persistence;
 namespace Lopakodo.Model
 {
 
-    
-   
+
+
     public enum GameDifficulty { Easy, Medium, Hard }
     public class GameModel
     {
@@ -20,7 +20,7 @@ namespace Lopakodo.Model
         private Creatures[] guards;
         private GameDifficulty gameDifficulty;
         private Creatures player;
-        private Int32 tableSize=15;
+        private Int32 tableSize = 15;
         private Int32 gameTime = 0;
         private DispatcherTimer Timer;
         private ILopakodoDataAccess _dataAccess;
@@ -356,7 +356,7 @@ namespace Lopakodo.Model
             if (_dataAccess == null)
                 throw new InvalidOperationException("No data access is provided.");
 
-            Tuple<Int32, Creatures, Creatures[], Coord,Coord[]> Loaded_data = await _dataAccess.LoadAsync(path);
+            Tuple<Int32, Creatures, Creatures[], Coord, Coord[]> Loaded_data = await _dataAccess.LoadAsync(path);
             tableSize = Loaded_data.Item1;
             if (tableSize == 15) NewGame(0);
             if (tableSize == 12) NewGame(1);

@@ -6,7 +6,7 @@ namespace Lopakodo.ViewModel
     public class DelegateCommand : ICommand
     {
         private readonly Action<Object> _execute;
-        private readonly Func<Object, Boolean> _canExecute; 
+        private readonly Func<Object, Boolean> _canExecute;
         public DelegateCommand(Action<Object> execute) : this(null, execute) { }
         public DelegateCommand(Func<Object, Boolean> canExecute, Action<Object> execute)
         {

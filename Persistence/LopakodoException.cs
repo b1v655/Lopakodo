@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lopakodo.Windows.Lopakodo.Persistence
+namespace Lopakodo.Persistence
 {
     public class LopakodoDataException : Exception
     {

@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-namespace Lopakodo.Windows.Lopakodo.Persistence { 
+namespace Lopakodo.Persistence { 
     
 
     public class LopakodoFileDataAccess : ILopakodoDataAccess

@@ -10,9 +10,9 @@ namespace Lopakodo.View
         public MainWindow()
         {
             InitializeComponent();
-            
+
         }
-           
-        
+
+
     }
 }

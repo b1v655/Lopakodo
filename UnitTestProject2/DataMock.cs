@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Lopakodo.Windows.Lopakodo.Persistence;
+using Lopakodo.Persistence;
 namespace Lopakodo.Windows.Lopakodo.gametest
 {
     class DataMock : ILopakodoDataAccess

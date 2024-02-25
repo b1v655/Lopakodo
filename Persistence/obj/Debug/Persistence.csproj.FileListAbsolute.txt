@@ -1,0 +1,12 @@
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\bin\Debug\Persistence.dll.config
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\bin\Debug\Persistence.dll
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\bin\Debug\Persistence.pdb
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\bin\Debug\EntityFramework.dll
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\bin\Debug\EntityFramework.xml
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\obj\Debug\Persistence.csproj.AssemblyReference.cache
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\obj\Debug\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\obj\Debug\Persistence.csproj.CopyComplete
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\obj\Debug\Persistence.dll
+C:\Users\milanhorvath\Desktop\Lopakodo-main\Persistence\obj\Debug\Persistence.pdb

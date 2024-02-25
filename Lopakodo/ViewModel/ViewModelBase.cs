@@ -7,9 +7,9 @@ namespace Lopakodo.ViewModel
     public abstract class ViewModelBase : INotifyPropertyChanged
     {
         protected ViewModelBase() { }
-        
+
         public event PropertyChangedEventHandler PropertyChanged;
-        
+
         protected virtual void OnPropertyChanged([CallerMemberName] String propertyName = null)
         {
             if (PropertyChanged != null)

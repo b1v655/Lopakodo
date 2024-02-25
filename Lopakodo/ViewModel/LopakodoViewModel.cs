@@ -1,7 +1,7 @@
-﻿using System;
-using Lopakodo.Model;
+﻿using Lopakodo.Model;
+using System;
 using System.Collections.ObjectModel;
-using Lopakodo.Windows.Lopakodo.Persistence;
+using Lopakodo.Persistence;
 namespace Lopakodo.ViewModel
 {
     class LopakodoViewModel : ViewModelBase
@@ -47,7 +47,7 @@ namespace Lopakodo.ViewModel
             }
         }
 
-       
+
         public LopakodoViewModel(GameModel model)
         {
 
@@ -56,7 +56,7 @@ namespace Lopakodo.ViewModel
             _model.PlayerMovedEvent += new EventHandler(PlayerMovedEvent);
             _model.GuardsMovedEvent += new EventHandler(Game_GuardsMovedEvent);
             _model.GeneratedTable += new EventHandler(Game_GeneratedTable);
-            
+
             // parancsok kezelése
             stepCommand = new DelegateCommand(param => _model.RegisterMove(param.ToString()));
             EasyGameCommand = new DelegateCommand(param => EasyGame());
@@ -225,7 +225,7 @@ namespace Lopakodo.ViewModel
 
         public event EventHandler ExitGame;
 
-        
+
         public event EventHandler LoadGameOpen;
 
         public event EventHandler<String> LoadGameClose;
@@ -240,13 +240,13 @@ namespace Lopakodo.ViewModel
             if (LoadGameOpen != null)
                 LoadGameOpen(this, EventArgs.Empty);
         }
-        
+
         private void OnLoadGameClose(String name)
         {
             if (LoadGameClose != null)
                 LoadGameClose(this, name);
         }
-        
+
         private void OnSaveGameOpen()
         {
             if (SaveGameOpen != null)
@@ -258,10 +258,10 @@ namespace Lopakodo.ViewModel
             if (SaveGameClose != null)
                 SaveGameClose(this, name);
         }
-            private void OnExitGame()
-            {
-                if (ExitGame != null)
-                    ExitGame(this, EventArgs.Empty);
-            }
+        private void OnExitGame()
+        {
+            if (ExitGame != null)
+                ExitGame(this, EventArgs.Empty);
+        }
     }
 }
